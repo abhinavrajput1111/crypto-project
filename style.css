@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+.main {
+  background-image: url("main_image.svg");
+  background-size: 35%;
+
+  /* background-color: aqua; */
+  background-position-x: right;
+  background-repeat: no-repeat;
+}
+
+.parent {
+  display: flex;
+  gap: 2rem;
+  /* justify-content: ; */
+  /* gap: 2rem; */
+  align-items: center;
+  background-color: antiquewhite;
+  margin: 0rem 2rem;
+  padding: 0 1rem;
+  min-width: 25vw;
+  border: 2px solid #f44332;
+  text-align: center;
+  /* align-items: center; */
+  /* flex-wrap: wrap; */
+}
+
+/* .left-inner {
+  width: 40%;
+  height: 100%;
+} */
+
+/* .right-inner {
+  width: 50%;
+  height: 100%;
+} */
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* width */
+#trending-coins::-webkit-scrollbar {
+  width: 5px;
+  margin: 5rem;
+}
+
+/* Track */
+#trending-coins::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 15px;
+}
+
+/* Handle */
+#trending-coins::-webkit-scrollbar-thumb {
+  background: #f44332;
+  border-radius: 10px;
+  height: 5px;
+  width: 15px;
+}
+
+/* Handle on hover */
+#trending-coins::-webkit-scrollbar-thumb:hover {
+  background: #f81919;
+}

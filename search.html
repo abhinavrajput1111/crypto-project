@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="search.css" />
+  </head>
+  <body>
+    <div id="wrapper" class="wrapper">
+      <!-- header -->
+
+      <header id="header" class="header flex items-center justify-between pt-3">
+        <div id="left" class="w-9/12 pl-10">
+          <a href="index.html">
+            <img src="logo.png" alt="logo" class="w-28 mx-3 my-3"
+          /></a>
+        </div>
+        <a
+          class="text-center mx-16 px-6 py-1 rounded-md bg-red-500 text-white font-semibold cursor-pointer"
+          href="search.html"
+        >
+          Search
+        </a>
+      </header>
+
+      <!-- main div -->
+      <!-- Search bar -->
+
+      <div id="main" class="w-screen">
+        <div
+          class="search w-2/3 border-2 h-16 mx-auto flex justify-center items-center"
+        >
+          <input
+            type="search"
+            name=""
+            id="search"
+            class="pl-5 py-1 w-[40%] mr-3 border-2 rounded-sm"
+            placeholder="Enter Coin"
+          />
+          <a
+            href=""
+            name=" "
+            id="search-btn"
+            class="bg-red-500 text-white px-4 py-1 rounded-md cursor-pointer"
+            >Search Details</a
+          >
+        </div>
+        <div id="output" class="output mt-5 min-h-44 border-2 mx-5"></div>
+      </div>
+
+      <!-- footer -->
+      <footer
+        id="footer"
+        class="footer flex justify-between mt-10 py-8 bg-black text-white"
+      >
+        <p class="ml-10">
+          © CryptoView | Developed by <a href="#">Abhinav Rajput</a>
+        </p>
+        <p class="mr-10">Github</p>
+      </footer>
+    </div>
+
+    <script src="search.js"></script>
+  </body>
+</html>
