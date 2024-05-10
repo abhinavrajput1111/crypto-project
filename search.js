@@ -61,7 +61,7 @@ function displaySearchCoins(data) {
     );
 
     button.innerText = "Details";
-    button.href = "more_Infor.html";
+    button.href = "more_Infor.html?id=" + coin.id;
 
     // button.addEventListener("click", (e) => {
     //   console.log("yes ddy");

@@ -1,0 +1,32 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* .main {
+  background-image: url("img2.webp");
+  /* background-color: antiquewhite; */
+
+.main {
+  background-color: aliceblue;
+}
+
+.heading {
+  text-align: center;
+  padding-top: 1rem;
+  /* margin-bottom: 1rem; */
+  font-size: xx-large;
+  color: #3fc9ff;
+  color: navy;
+  font-weight: bold;
+}
+
+.desc {
+  padding-top: 1rem;
+  margin-bottom: 1rem;
+}
+/* 
+.left-output {
+  background-color: aliceblue;
+} */
